@@ -10,9 +10,8 @@ const dataSource = of(1, 2, 3, 4, 5);
 const subscription = dataSource
   .pipe(
     // only accept values 2 or greater
-    filter(value => value >= 2)
-  )
-  .pipe(
+    filter(value => value >= 2),
+    
     // add 1 to each emitted value
     map(value => value + 1)
   )
