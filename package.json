@@ -10,5 +10,8 @@
     "rangequest"
   ],
   "author": "Praveen Dias",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
 }
